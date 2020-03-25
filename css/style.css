@@ -1,0 +1,78 @@
+/*mobile first*/
+@media(min-width: 0px){
+	#geral {
+		width: 400px;
+		background: #40E0D0;
+		margin-left: 50px;
+		border-radius: 5px;
+	}
+
+	#formHoras {
+		margin-left: 170px;
+	}
+
+	#mensagemTotal{
+		font-weight: bold;
+		margin-left: 10px;
+		color: #363636;
+	}
+
+	label{
+		font-size: 16;
+	}
+	input{
+		border-radius: 5px;
+	}
+
+	#bTempo{
+		background-color: #fff;
+    	border: 1px solid silver;
+    	cursor: pointer;
+    	height: 30px;
+    	width: 120px;
+    	margin-left: 150px;
+	}
+
+	#bTempo:hover {
+    	background-color: #ebedf0;
+    	box-shadow: none;
+	}	
+}
+/*tablet*/
+@media(min-width: 700px){
+	#geral {
+		width: 500px;
+		margin-left: 80px;
+	}
+
+	#formHoras {
+		margin-left: 270px;
+	}
+
+	#mensagemTotal{
+		margin-left: 80px;
+	}
+
+	#bTempo{
+    	margin-left: 250px;
+	}
+}
+/*desktop*/
+@media(min-width: 900px){
+	#geral {
+		width: 600px;
+		margin-left: 300px;
+	}
+
+	#formHoras {
+		margin-left: 270px;
+	}
+
+	#mensagemTotal{
+		margin-left: 150px;
+	}
+
+	#bTempo{
+    	margin-left: 250px;
+	}
+}
